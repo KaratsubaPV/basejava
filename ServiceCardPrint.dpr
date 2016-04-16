@@ -2,7 +2,7 @@ program ServiceCardPrint;
 
 uses
   Forms,
-  fmMainForm in '..\..\..\Users\frac\Downloads\Scard\SC\fmMainForm.pas' {mainform};
+  fmMainForm in 'fmMainForm.pas' {mainform};
 
 {$R *.res}
 

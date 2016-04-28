@@ -34,7 +34,7 @@ object mainform: Tmainform
     PrintOptions.PrintOnSheet = 0
     PrintOptions.ShowDialog = False
     ReportOptions.CreateDate = 38735.558183946800000000
-    ReportOptions.LastChange = 42476.497450219900000000
+    ReportOptions.LastChange = 42480.435207280090000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'var Stream: Char;  '
@@ -283,8 +283,8 @@ object mainform: Tmainform
     end
     object pgReport: TfrxReportPage
       Orientation = poLandscape
-      PaperWidth = 90.000000000000000000
-      PaperHeight = 60.000000000000000000
+      PaperWidth = 86.000000000000000000
+      PaperHeight = 54.000000000000000000
       PaperSize = 256
       object memoFam: TfrxMemoView
         Left = 18.897637800000000000
@@ -436,9 +436,9 @@ object mainform: Tmainform
         ParentFont = False
       end
       object Memo3: TfrxMemoView
-        Left = 177.417322830000000000
+        Left = 169.858262830000000000
         Top = 147.377952760000000000
-        Width = 131.023706670000000000
+        Width = 138.582766670000000000
         Height = 15.118110240000000000
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
@@ -446,14 +446,15 @@ object mainform: Tmainform
         Font.Height = -11
         Font.Name = 'KievitCyr-MediumSC'
         Font.Style = []
+        HAlign = haRight
         Memo.UTF8 = (
           #1056#8221#1056#176#1057#8218#1056#176' '#1057#1026#1056#181#1056#1110#1056#1105#1057#1027#1057#8218#1057#1026#1056#176#1057#8224#1056#1105#1056#1105' '#1056#1030' '#1056#1038#1056#1114#1056#1115':')
         ParentFont = False
       end
       object memoPolBegin: TfrxMemoView
-        Left = 254.007874020000000000
-        Top = 161.362204724409400000
-        Width = 54.173263330000000000
+        Left = 178.417274020000000000
+        Top = 161.362204720000000000
+        Width = 129.763863330000000000
         Height = 15.118110240000000000
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
@@ -461,6 +462,7 @@ object mainform: Tmainform
         Font.Height = -11
         Font.Name = 'KievitCyr-MediumSC'
         Font.Style = []
+        HAlign = haRight
         Memo.UTF8 = (
           '01.01.2016')
         ParentFont = False

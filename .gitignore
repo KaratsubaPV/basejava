@@ -1,3 +1,4 @@
 /ServiceCardPrint.exe
 /scard.log
 /scard.txt
+*.dcu

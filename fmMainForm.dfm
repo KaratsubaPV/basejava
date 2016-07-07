@@ -34,7 +34,7 @@ object mainform: Tmainform
     PrintOptions.PrintOnSheet = 0
     PrintOptions.ShowDialog = False
     ReportOptions.CreateDate = 38735.558183946800000000
-    ReportOptions.LastChange = 42558.478233553240000000
+    ReportOptions.LastChange = 42558.677071875000000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'var Stream: Char;  '
@@ -301,7 +301,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#152#1056#1030#1056#176#1056#1029#1056#1109#1056#1030)
@@ -317,7 +317,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#152#1056#1030#1056#176#1056#1029)
@@ -333,7 +333,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#152#1056#1030#1056#176#1056#1029#1056#1109#1056#1030#1056#1105#1057#8225)
@@ -349,7 +349,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'Trebuchet MS'
         Font.Style = []
         Memo.UTF8 = (
           '01.01.1980')
@@ -386,7 +386,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clWindowText
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#8211)
@@ -417,7 +417,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#8226#1056#1169#1056#1105#1056#1029#1057#8249#1056#8470' '#1056#1029#1056#1109#1056#1112#1056#181#1057#1026' '#1056#1111#1056#1109#1056#187#1056#1105#1057#1027#1056#176':')
@@ -432,7 +432,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#8221#1056#176#1057#8218#1056#176' '#1057#1026#1056#181#1056#1110#1056#1105#1057#1027#1057#8218#1057#1026#1056#176#1057#8224#1056#1105#1056#1105' '#1056#1030' '#1056#1038#1056#1114#1056#1115':')
@@ -446,8 +446,8 @@ object mainform: Tmainform
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
-        Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Height = -12
+        Font.Name = 'Trebuchet MS'
         Font.Style = []
         HAlign = haRight
         Memo.UTF8 = (
@@ -463,22 +463,22 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1056#1038#1057#1026#1056#1109#1056#1108' '#1056#1169#1056#181#1056#8470#1057#1027#1057#8218#1056#1030#1056#1105#1057#1039':')
         ParentFont = False
       end
       object memoPolEnd: TfrxMemoView
-        Left = 236.110390000000000000
+        Left = 183.196970000000000000
         Top = 174.236220470000000000
-        Width = 73.070913330000000000
+        Width = 125.984333330000000000
         Height = 15.118110240000000000
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
-        Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Height = -12
+        Font.Name = 'Trebuchet MS'
         Font.Style = []
         HAlign = haRight
         Memo.UTF8 = (
@@ -488,28 +488,28 @@ object mainform: Tmainform
       object Memo8: TfrxMemoView
         Left = 18.897637800000000000
         Top = 147.795275590000000000
-        Width = 50.393733330000000000
+        Width = 118.425273330000000000
         Height = 15.118110240000000000
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
-        Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Height = -12
+        Font.Name = 'KievitCyr-Medium'
         Font.Style = []
         Memo.UTF8 = (
           #1074#8222#8211' '#1056#1108#1056#176#1057#1026#1057#8218#1057#8249':')
         ParentFont = False
       end
       object memoCardNum: TfrxMemoView
-        Left = 193.511811020000000000
+        Left = 167.055101020000000000
         Top = 147.795275590000000000
-        Width = 115.905586670000000000
+        Width = 142.362296670000000000
         Height = 15.118110240000000000
         ShowHint = False
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
-        Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Height = -12
+        Font.Name = 'Trebuchet MS'
         Font.Style = []
         HAlign = haRight
         Memo.UTF8 = (
@@ -532,7 +532,7 @@ object mainform: Tmainform
         Font.Charset = RUSSIAN_CHARSET
         Font.Color = clBlack
         Font.Height = -12
-        Font.Name = 'Arial'
+        Font.Name = 'Trebuchet MS'
         Font.Style = []
         Memo.UTF8 = (
           ',')
